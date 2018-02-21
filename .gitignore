@@ -4,14 +4,14 @@
 /admin/mpdf60/*
 !/admin/mpdf60/*.php
 !/admin/mpdf60/*.css
-/Zend
+/admin/Zend
 
 # dependencies
 /files
 
 # IDEs and editors
 /nbproject
-/nbproject/bannerbro
+/bannerbro/nbproject
 
 # misc
 /cache
