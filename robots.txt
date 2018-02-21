@@ -1,0 +1,59 @@
+Sitemap: http://www.softmaker.kz/Sitemap.xml
+
+User-agent: *
+Disallow: /admin/
+Disallow: /cache/
+Disallow: /billing/
+Disallow: /view_post.php
+Disallow: /view_file.php
+Disallow: /view_date.php
+Disallow: /view_search.php
+Disallow: /banner/
+Disallow: /blocks/
+Disallow: /classes/
+Disallow: /img/
+Disallow: /js/
+Disallow: /mail/Mail/
+Disallow: /AdSense/
+Disallow: /about.php
+Disallow: /exref.php
+
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /cache/
+Disallow: /billing/
+Disallow: /view_post.php
+Disallow: /view_file.php
+Disallow: /view_date.php
+Disallow: /view_search.php
+Disallow: /banner/
+Disallow: /blocks/
+Disallow: /classes/
+Disallow: /img/
+Disallow: /js/
+Disallow: /mail/Mail/
+Disallow: /AdSense/
+Disallow: /about.php
+Disallow: /exref.php
+
+User-agent: Yandex
+Disallow: /admin/
+Disallow: /cache/
+Disallow: /billing/
+Disallow: /view_post.php
+Disallow: /view_file.php
+Disallow: /view_date.php
+Disallow: /view_search.php
+Disallow: /banner/
+Disallow: /blocks/
+Disallow: /classes/
+Disallow: /img/
+Disallow: /js/
+Disallow: /mail/Mail/
+Disallow: /AdSense/
+Disallow: /about.php
+Disallow: /exref.php
+
+Host: www.softmaker.kz
+
+

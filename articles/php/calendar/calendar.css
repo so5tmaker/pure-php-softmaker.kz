@@ -1,0 +1,107 @@
+.body {
+    font-family: Verdana;
+    /*background-color : #3E3E36;
+	background-image: url(4.gif);
+	background-repeat: no-repeat;*/
+	
+	}
+	
+	.body_one {
+    font-family: Verdana;
+   background-color : #3E3E36;
+	 /*background-image: url(4.gif);
+	background-repeat: no-repeat;*/
+	
+	}
+
+.tr {
+    background-color : #89856F;
+	border           : 1px solid #686552;
+	font-size : 4px;
+	
+}
+
+.th {
+    font-family: Verdana;
+}
+
+a.buttonbar:link, a.buttonbar:visited {
+    font-size        : 9px;
+    padding-top      : 1px;
+    padding-bottom   : 1px;
+    text-decoration  : none;
+    background-color : #89856F;
+    color            : #FFFFFF
+}
+a.buttonbar:hover {
+    padding-top      : 1px;
+    padding-bottom   : 1px;
+    background-color : #CCCCCC;
+    color            : #FFFFFF
+}
+.normal {
+    font-family: Verdana;
+    font-size: 7pt;
+	font-weight:bold;
+    color: #000000;
+}
+.today {
+    font-family: Verdana;
+    font-size: 7pt;
+    font-weight:bold;
+    color:#000066;
+    background-color: #CACACA;
+}
+.weekend {
+    font-family: Verdana;
+    font-size: 7pt;
+	font-weight : bold;
+    color:#FF0000;
+    
+}
+.selected {
+    font-family: Verdana;
+    font-size: 8pt;
+    color: #FFFFFF;
+    background-color: #C00000;
+}
+.event {
+    font-family: Verdana;
+    font-size: 8pt;
+    color: #000000;
+    background-color: #C6D1DC;
+}
+.head {
+    color:#CCCCCC;
+    font:Arial, Helvetica, sans-serif;
+    font-size:9px;
+    font-weight:bold;
+    background-color:#73705D;
+	
+}
+.head_hour {
+    color:#CCCCCC;
+    font: Courier;
+    font-size:28px;
+	font-weight:bold;
+    background-color:#686552;
+    text-align : center;
+}
+.title {
+    color:#89856F;
+    font:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+}
+.button {
+    font-family      : Verdana, Arial, Helvetica, sans-serif;
+    font-style       : normal;
+    font-weight      : bold;
+    font-size        : 10px;
+    color            : #89856F;
+    background-color : #73705D;
+    border           : 1px solid #73705D;
+}
+.td_color{
+background-image: url(4.gif);
+}

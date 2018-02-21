@@ -1,0 +1,126 @@
+/* CSS Document */
+
+.main_border {border:1px solid #000000;}
+p {font-family:Verdana; font-size:12px; margin:15px;}
+.left {background-color:#f6f6f6; border-right:1px solid #424242;}
+.right{background-color:#f6f6f6; border-left:1px solid #424242;}
+body {background-image:url(img/bg.jpg)}
+
+.header_td{
+	background-color: #2275AD; 
+	border-bottom:1px solid Black; 
+	color:white;
+	font-size:38px;
+	width:790px;
+	height:100px;
+	text-align : center;
+	font : bolder;
+	font-family : Verdana;
+}
+
+.footer_t{
+	font-size : 10px;
+	text-align : center;
+	padding: 0 0 0 0;
+	width : 50%;
+	color: Black;
+	font-style: oblique;
+	background-color: #2275AD;
+	border: 1px solid Black; 
+	font-family : Verdana;
+}
+
+p.title {
+background-color: #2275AD;
+color: #ffffff;
+font-weight:bold;
+margin:5px;
+padding:5px;
+}
+
+#coolmenu{
+border: 1px solid gray; /*—тиль рамки */
+border-bottom-width: 0;
+width: 93%; /*Ўирина меню */
+background-color: #f6f6f6;  /*‘оновый цвет €чейки*/
+margin:7px; /*Ўирина отступов*/
+}
+
+* html #coolmenu{ 
+width: 150px;/*Ўирина меню дл€ Internet Explorer*/
+}
+
+#coolmenu a{
+font: bold 13px Verdana; /*Ўрифт текста*/
+padding: 2px; /*¬нутренний отсутп текста ссылки от краев €чейки*/
+padding-left: 4px;/*¬нутренний отсутп текста ссылки от левого кра€ €чейки*/
+display: block;
+width: 100%; /*Ўирина €чейки*/
+color: #000000;  /*÷вет текста*/
+text-decoration: none; /*ѕодчеркивание у ссылок - нет*/
+border-bottom: 1px solid gray;
+}
+
+html>body #coolmenu a{ 
+width: auto;
+}
+
+#coolmenu a:hover{
+background-color: #cccccc; /*‘оновый цвет €чейки при наведение курсора*/
+color: #000000;  /*÷вет текста при наведении курсора*/
+}
+
+p.title2 {
+background-color: #C4C92F;
+color: #ffffff;
+font-weight:bold;
+margin:5px;
+padding:5px;
+}
+
+.form1 {
+font-family: Verdana;
+font-size: 10px;
+}
+
+.form3 {
+font-family: Verdana;
+font-size: 11px;
+}
+
+.formm {
+border: 1px solid #cccccc;
+margin:5px;
+}
+
+.lesson {border:1px solid #cccccc; width:95%;}
+.lesson_title {background-color:#f6f6f6;}
+
+.lesson_name {font-weight:bold; margin-top:7px; margin-bottom:7px;}
+.lesson_adds {font-size:11px; margin-top:7px; margin-bottom:7px; color:#424242;}
+
+.view_title {font-size:16px; font-weight:bold; color:#cc0000; text-align:center;}
+.view_date {font-size:11px; color:#424242; margin-top:7px; margin-bottom:7px; font-weight:bold;}
+
+/*********************** дл€ миниатюр ********************/
+ol.sdfhju {
+    margin-left: -20px !important;
+}
+
+.fhjk {
+    color: #333333;
+    font: 700 1em/18px "PT Sans Narrow",Arial,sans-serif;
+    margin: 10px 0 0;
+    padding: 0 0 0 20px;
+    text-align: center;
+    width: 150px;
+}
+
+.rle {
+    border: 1px solid #CCCCCC;
+    float: left;
+    height: 270px;
+    list-style-type: none;
+    margin: 0 3px 6px !important;
+}
+/*********************** конец дл€ миниатюр ********************/

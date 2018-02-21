@@ -1,0 +1,3 @@
+<table border="0" align="center" cellpadding="0" cellspacing="0" height="18" width="990px" >
+    <tr><td class="footer_t"  >Сайт разработан фирмой <a style="color:black" href="http://www.softmaker.kz/" title="Hosted by Softmaker">SoftMaker</a></td><td class="footer_t">Copyright <a style="color:black" href="http://www.softmaker.kz/" title="Hosted by Softmaker">SoftMaker</a> &copy; 2009</td></tr>
+</table>

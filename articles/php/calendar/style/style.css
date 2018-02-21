@@ -1,0 +1,25 @@
+th {
+    font-family: Verdana;
+	font-weight : bold;
+	font-size : 14px;
+	background : #E9ECEF;
+}
+
+table{
+	background : #E0FFFF;
+	width : 210px;
+	border: 1px solid #888;
+}
+
+.cur_td{
+	background : #FFEBCD;
+	text-decoration : blink;
+	}
+
+td {
+	border: 1px solid Black;
+	text-align : center;
+	font-weight : bold;
+	font-size : 12px;
+	}
+

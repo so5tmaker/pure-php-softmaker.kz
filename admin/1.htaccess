@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "Private zone. Only for administrator!"
+AuthUserFile C:/WebServers/home/localhost/www/sivulskiy/admin/.htpasswd 
+require valid-user

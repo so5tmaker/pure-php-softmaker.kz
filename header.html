@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="<? echo $lang ?>">
+<head>
+<? 
+if ($filename == 'index') {
+    if ($lang == "RU") { 
+        $yandex_content = '4c3fe8be6cb65674';
+    } else {
+        $yandex_content = '6b71c98dbc723678';
+    }
+    echo "<meta name='yandex-verification' content='$yandex_content' />";
+}
+?>    
+
+<meta name="google-site-verification" content="Og-4l0VH3lzzKPYK7N0zkxAQ1L72Y40TJn-vF5SG_UM" />
+<meta http-equiv="Content-Type" content="<? echo 'text/html; charset='.$coding; ?>">
+<? $page_here = (isset($_GET['page'])) ? ' - '.get_foreign_equivalent("Страница").' '.$_GET['page'] : ''; 
+$sitename = ": SoftMaker.kz - все для начинающих программистов. Разработка в 1С, PHP, Delphi";
+
+$newname = ((isset($title)) ? $title : $myrow["title"]).$sitename.$page_here;
+?>
+<title><? echo $newname; ?></title>
+<link href="<? echo $deep; ?>style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="<? echo ($rus !== false) ? $deep.'img/SM_loc.png' : $deep.'img/SM.png' ?>">
+<link rel="alternate" type="application/rss+xml" title="Articles RSS" href="http://feeds.softmaker.kz/Softmakerkz/" /> <!--http://www.softmaker.kz/<?echo 'rss.php?lang='.$lang ?>-->
+
+<meta name="description" content="<? echo (isset($meta_d)) ? $meta_d : $myrow["meta_d"]; echo $page_here ?>">
+<meta name="keywords" content="<? echo (isset($meta_k)) ? $meta_k : $myrow["meta_k"]; ?>">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+
+<script src='<? echo $deep; ?>js/common.js'></script>
+
+<?
+if(isset($_SESSION['logged_in'])){
+    echo "<script src='".$deep."js/jquery-2.1.0.min.js'></script>";
+}
+if ($root){
+    echo "<script type='text/javascript' src='".$deep."admin/js/admin.js'></script>";
+}
+?>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18537287-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script src="http://static.dudamobile.com/DM_redirect.js" type="text/javascript"></script>
+<script type="text/javascript">DM_redirect("http://m.softmaker.kz");</script>
+
+<a href="https://plus.google.com/100830680899510653182" rel="publisher"><!--Google+--></a>
+
+<? include ("bannerbro/banner_1251.php"); ?>
+</head>
+
+<body id="top">
+<table align="center" width="100%" border="0"  cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="main_border">
+  <? include ("blocks/header.php"); ?>
+  <tr><!--tr1-->
+   <td valign="top"><!--tr1_td1-->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0"><!--tr1_td1_table1-->
+      <tr><!--tr1_td1_table1_tr1-->
+       <? include ("blocks/lefttd.php"); ?>
+       <td valign="top"><!--tr1_td1_table1_tr1_td1-->
+           <p id="mdl"></p><!--для просмотра страницы, начиная с меню навигации -->
+        <?
+        include ("blocks/nav.php");
+        echo "<div id='pagewrap'>";
+        echo $text; 
+        ?>
+        <p id="back-top">
+        <a href="#top"><? echo "^ ".get_foreign_equivalent("Наверх")." ^"; ?></a>
+        </p>
+        <?
+	echo "</div>";
+        ?>

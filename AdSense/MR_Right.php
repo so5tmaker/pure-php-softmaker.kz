@@ -1,0 +1,2 @@
+<?ArticlesBottomPositionComm($cat);?>
+        

@@ -1,0 +1,42 @@
+AddDefaultCharset utf-8
+Options -Indexes
+
+SetEnvIfNoCase User-Agent "^Yandex" search_bot
+SetEnvIfNoCase User-Agent "^Yahoo" search_bot
+SetEnvIfNoCase User-Agent "^Googlebot" search_bot
+SetEnvIfNoCase User-Agent "^googlebot" search_bot
+SetEnvIfNoCase User-Agent "^Aport" search_bot
+SetEnvIfNoCase User-Agent "^msnbot" search_bot
+SetEnvIfNoCase User-Agent "^spider" search_bot
+SetEnvIfNoCase User-Agent "^Robot" search_bot
+SetEnvIfNoCase User-Agent "^php" search_bot
+SetEnvIfNoCase User-Agent "^Mail" search_bot
+SetEnvIfNoCase User-Agent "^bot" search_bot 
+SetEnvIfNoCase User-Agent "bot" search_bot 
+SetEnvIfNoCase User-Agent "^igdeSpyder" search_bot
+SetEnvIfNoCase User-Agent "^Snapbot" search_bot
+SetEnvIfNoCase User-Agent "^WordPress" search_bot
+SetEnvIfNoCase User-Agent "^BlogPulseLive" search_bot
+SetEnvIfNoCase User-Agent "^Parser" search_bot
+SetEnvIfNoCase User-Agent "^Googlebot-Image" search_bot
+SetEnvIfNoCase User-Agent "^googlebot-image" search_bot
+SetEnvIfNoCase User-Agent "^StackRambler" search_bot
+SetEnvIfNoCase User-Agent "^Adsbot-Google" search_bot
+SetEnvIfNoCase User-Agent "^WebAlta" search_bot
+SetEnvIfNoCase User-Agent "^Googlebot-Mobile" search_bot
+SetEnvIfNoCase User-Agent "^googlebot-mobile" search_bot
+SetEnvIfNoCase User-Agent "^YandexImages" search_bot
+SetEnvIfNoCase User-Agent "http://www.google.com/bot.html" search_bot
+
+<FilesMatch "^.*$">
+Order Allow,Deny
+Allow from all
+Deny from env=search_bot
+</FilesMatch>
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+RewriteEngine off

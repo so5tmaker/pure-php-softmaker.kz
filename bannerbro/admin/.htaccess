@@ -1,0 +1,14 @@
+<FilesMatch "^(config|afunction|footer|key|session|up)\.php$">
+ Deny from all
+ </FilesMatch>
+
+<FilesMatch ".(txt)$">
+ Order Allow,Deny
+ Deny from all
+ </FilesMatch>
+ 
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+ 

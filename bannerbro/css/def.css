@@ -1,0 +1,41 @@
+.DefaultText  {
+	font-size:16pt;
+}
+
+.DefaultText a{
+	font-size:16pt;
+	text-decoration: none;
+	color:#1e6fc7;
+	text-align:center;	
+}
+
+.DefaultText a:hover,
+.DefaultText a:focus,
+.DefaultText a:active
+{
+	font-size:16pt;
+	text-decoration: none;
+	color:#ed9610;
+}
+
+.DefaultImg{
+margin:0 auto;
+background: url('../images/rambg.jpg') #f4f4f4 no-repeat;
+border:1px solid;
+text-align:center !important;
+display: table-cell !important;
+vertical-align: middle !important; 
+}
+
+.DefaultImg a:hover{
+border:1px solid #ed9610;	
+}
+
+span.hidden-link {
+	cursor: pointer; /*-указатель в виде пальца-*/
+}	
+
+span.hidden-link img{
+	margin-top: 0;
+    display: inline-block;
+}

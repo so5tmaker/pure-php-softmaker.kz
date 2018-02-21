@@ -1,0 +1,15 @@
+Описание функций рекламы:
+[centraltd.php в строке 10, столбце 9]      AdvTopPosition();
+[global.inc.php в строке 1019, столбце 10]  function AdvTopPosition()
+[files.php в строке 76, столбце 1]  AdvTopPosition(); retArticlesTopPosition строке 188, столбце 86
+
+[articles.php в строке 76, столбце 1]  ArticlesTopPosition($cat);
+[global.inc.php в строке 1053, столбце 10] ArticlesTopPosition($catid)
+[view_post.php в строке 89, столбце 1]  ArticlesTopPosition($cat);
+
+[about.php в строке 55, столбце 27]     google_ad_slot = "6580654287";
+[autoremont.php в строке 13, столбце 27]google_ad_slot = "6580654287";
+[dic.php в строке 337, столбце 23]      google_ad_slot = "6580654287";
+[reklama.php в строке 14, столбце 27]   google_ad_slot = "6580654287";
+[view_file.php в строке 71, столбце 35] google_ad_slot = "6580654287";
+
